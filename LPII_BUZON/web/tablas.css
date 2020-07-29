@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #182c2e;
+}
+input[type = "submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #2ecc71;
+    padding: 7px 20px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+ input[type = "submit"]:hover{
+    background: #2ecc71;
+}
+.tablain{
+    width: 250px;
+    padding: 20px;
+    position: absolute;
+    top: 55%;
+    left: 57%;
+    transform: translate(-250%,-100%);
+    background: #191919;
+    color: white;
+}
+
+.tablain input[type = "text"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #3498db;
+    padding: 7px 25px;
+    width: 95px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.tablain input[type = "text"]:focus{
+    width: 95px;
+    border-color: #2ecc71;
+}
+.tablaout{
+    width: 400px;
+    padding: 40px;
+    top: 55%;
+    left: 57%;
+    color: white;
+    background: #191919;
+}
+.tablaout thead{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.tablaout td{
+    border:0;
+    background: none;
+    margin: 5px auto;
+    align-content: center;
+    border: 2px solid #3498db;
+    width: 10px;
+    outline: none;
+    border-radius: 15px;
+    transition: 0.25s;
+}

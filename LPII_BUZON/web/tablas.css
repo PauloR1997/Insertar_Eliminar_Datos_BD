@@ -48,6 +48,34 @@ input[type = "submit"]{
     width: 95px;
     border-color: #2ecc71;
 }
+.tablaon{
+    width: 250px;
+    padding: 20px;
+    position: absolute;
+    top: 70%;
+    left: 57%;
+    transform: translate(-250%,-100%);
+    background: #191919;
+    color: white;
+}
+
+.tablaon input[type = "text"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 10px auto;
+    border: 2px solid #3498db;
+    padding: 7px 25px;
+    width: 95px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+.tablaon input[type = "text"]:focus{
+    width: 95px;
+    border-color: #2ecc71;
+}
 .tablaout{
     width: 400px;
     padding: 40px;

@@ -25,9 +25,13 @@
                 <tr>
                     <td ><a  href="DatosRol.jsp">Roles</a></td>
                 </tr>
+                <tr>
+                    <td ><a  href="DatosSugerencia.jsp">Sugerencias</a></td>
+                </tr>
                 <tr >
                     <td ><a href="Login.jsp">Salir</a></td>
                 </tr>
+                
 
             </tbody>
         </table>

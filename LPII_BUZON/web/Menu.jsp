@@ -19,6 +19,9 @@
                 <tr>
                     <td><a  href="DatosPersona.jsp">Personas</a></td>
                 </tr>
+                <tr>
+                    <td><a  href="DatosArea.jsp">Areas</a></td>
+                </tr>
 
                 <tr >
                     <td ><a href="Login.jsp">Salir</a></td>
